@@ -13,25 +13,25 @@ body{
 .menu-bar{
     display: none;
     margin: 20px;
-    font-size: 20pt;
+    font-size: 26px;
 }
 .navigation-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    color: white;
     background-color: rgba(0,0,0,0.3);
     border-radius:50px;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
-    max-width: 1050px;
+    max-width: 1000px;
     margin:30px auto;
 }
 .logo{
-    font-size: 20pt;
-    font-family: "Radio Canada Big";
-    margin: 0 0 0 30px;
+    color: white;
+    font-size: 26px;
+    font-family: "Radio Canada Big",sans-serif;
+    margin-left: 20px;
+    padding: 15px;
 }
 .nav{
     display: flex;
@@ -39,13 +39,11 @@ body{
     justify-content: space-between;
     align-items:center;
     flex-wrap: wrap;
-    height: 60px;
+    gap: 35px;
 }
 .nav-tabs{
     list-style-type: none;
-    margin: 0 10px;
-    font-size: 10pt;
-    padding: 10px;
+    font-size: 14px;
     font-weight:500;
 }
 .nav-link{
@@ -56,21 +54,20 @@ body{
     color:orange;
     cursor: pointer;
 }
-.order-tab:hover a{
+.order-tab:hover .nav-link{
     color: white;
 }
 .order-tab{
     list-style-type: none;
-    margin:0 10px;
-    font-size: 10pt;
+    font-size: 14px;
     font-weight:bolder;
-    max-width: 250px;
+    max-width: 300px;
+    margin-right: 10px;
 } 
 .order-button{
     background:linear-gradient(to right,orangered,orange,orange,orange);
     border-radius: 50px;
     padding: 10px 15px;
-    margin-top: 2px;
     border: none;
 }
 .order-button:hover{
