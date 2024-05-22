@@ -2,229 +2,230 @@
     .navigation-container{
         max-width: 900px;
     }
-    .offer{
-        margin: 25px 80px 25px 170px;
+    .logo{
+        font-size: 24px;
     }
-    .headphone{
-        margin: 50px 0 0 80px;
+    .nav-tabs,.order-tab .nav-link{
+        font-size: 13px;
     }
     .heading{
-        font-size: 44pt;
+        font-size: 44px;
+    }
+    .model{
+        font-size: 36px;
     }
     .head,.white-head{
-        font-size:28pt ;
+        font-size:34px;
     }
     .para,.white-para{
-        font-size: 11pt;
-    }
-    .background{
-        margin: 50px auto 50px auto;
-    }
-    .black-headphone{
-        margin: 65px;
-    }
-    .content{
-        margin: 80px 0 0 0;
+        font-size: 17px;
     }
     .video-para{
-        font-size: 26pt;
-    }
-    .design-specifications{
-        margin:50px auto 0 auto;
-    }
-    .set-background{
-        margin: 50px 0 0 0;
-    }
-    .review{
-        margin: 50px 0 0 0;
-        padding: 0 0 50px 0;
+        font-size: 32px;
     }
     .reviewer-comment{
-        font-size: 13pt;
-    }
-    .product-content{
-        padding: 50px 0 0 0;
-    }
-    .blog-content{
-        margin:50px auto 70px auto;
-    }
-    .subscribe-content{
-        margin: 100px 0 0 0;
-    }
-    .mail-address{
-        margin: 50px 0 100px 0;
+        font-size: 17px;
     }
     .preorder-para{
-        font-size: 19pt;
-    }
-    .landing-page{
-        margin: 35px auto 40px auto;
+        font-size: 34px;
     }
 }
 @media (max-width: 1199px) {
     .navigation-container{
         max-width: 800px;
     }
-    .nav-link{
-        font-size: 9pt;
-    }
-    .nav-tabs{
-        margin: 0 5px;
-        padding: 5px;
-    }
-    .offer{
-        max-width: 350px;
+    .nav{
+        gap: 25px;
     }
     .headphone-image{
         max-width: 250px;
-        height: 380px;
+        height: 350px;
+    }
+    .offer-container{
+        gap: 80px;
     }
     .discount{
         left: 160px;
+        font-size: 18px;
     }    
-    .headphone{
-        margin: 50px 0 0 40px;
-    }
     .heading{
-        font-size: 40pt;
+        font-size: 42px;
+    }
+    .model{
+        font-size: 32px;
+    }
+    .stream{
+        font-size: 19px;
+    }
+    .off{
+        font-size: 13px;
+    }
+    .offer-para{
+        font-size: 14px;
+    }
+    .bag-icon,.cart-text{
+        padding: 10px;
+    }
+    .cart-text{
+        font-size: 13px;
+    }
+    .box-container,.background{
+        margin: 80px auto;
     }
     .box{
-        margin: 7px;
+        padding: 10px 20px;
+        width: 180px;
     }
     .head,.white-head{
-        font-size:26pt ;
+        font-size:32px ;
     }
     .para,.white-para{
-        font-size: 10pt;
+        font-size: 16px;
     }
-    .person-images{
-        margin: 80px 0 50px 50px;
+    .image{
+        max-width:180px;
+        height:280px;
+    }
+    .active-image{
+        max-width:200px ;
+        height:300px ;
+    }
+    .small-head{
+        font-size: 15px;
+    }
+    .small-para{
+        font-size: 13px;
+    }
+    .black-headphone{
+        max-width: 300px;
+        height: 380px;
+    }
+    .easy-center{
+        margin-top: 80px;
+        padding-bottom: 80px;
     }
     .video-para{
-        font-size:24pt;
+        font-size:30px;
     }
-    .video-items{
-        bottom: 450px;
-        left: 25%;
-    }
-    .column1,.column2{
-        font-size: 13pt;
+    .about-headphone{
+        gap: 80px;
     }
     .orange-background{
         max-width: 320px;
         height:210px; 
     }
     .attach-headphones{
-        max-width: 200px;
-        height:300px; 
-        left: 60px;   
-    }
-    .table-column{
-        padding: 15px 0;  
-    }
-    .preorder-para{
-        font-size: 18pt;
-    }
-    .black-headphone{
-        margin: 50px ;
+        max-width: 220px;
+        height:320px; 
+        left: 30px;
     }
     .design-specifications{
-        margin:50px auto;
+        margin-top: 80px;
     }
-    .icon-table{
-        max-width:90%;
-        margin: auto;
+    .column1,.column2{
+        font-size: 19px;
     }
-    .icon-column{
-        padding: 30px;
-        max-width: 45%;
+    .table-column{
+        padding: 15px 0;
     }
-    .reviewer-image{
-        margin:0 50px 0 0;
-    }
-    .comment-image{
-        margin: 50px 0;
-        max-width: 250px;
-        height: 300px;
-    }  
-    .reviewer-comment{
-        font-size: 12pt;
-    }  
-    .product-image{
-        padding:0 0 50px 0;
+    .set-background{
+        margin-top: 80px;
     }
     .preorder-para{
-        font-size: 18pt;
+        font-size: 32px;
     }
-    .preorder-headphone{
-        padding: 0 100px 0 100px;
+    .icon-table{
+        max-width: 96%;
     }
-    .company-content{
-        margin: 0 15px;
+    .icon-column{
+        max-width: 48%;
+        padding: 40px;
     }
-    .table-side{
-        margin-left: 50px;
+    .review{
+        margin-top: 80px;
+    }
+    .comment{
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+    .comment-image{
+        max-width: 300px;
+        height: 350px;
+    }  
+    .reviewer-comment{
+        font-size: 16px;
+    } 
+    .product-content{
+        padding-top: 80px;
+    }
+    .product-image{
+        padding-bottom: 80px;
+    } 
+    .blog-content,.subscribe-content{
+        margin-top: 80px;
+    }
+    .mail-address{
+        margin-bottom: 80px;
+    }
+    .company-head{
+        font-size: 19px;
+    }
+    .company-link{
+        font-size: 17px;
+    }
+    .company-container,.land{
+        gap: 60px;
+    }
+    .container{
+        max-width: 950px;
     }
 }
 @media (max-width: 991px) {
+    .container{
+        max-width: 720px;
+    }
     .navigation-container{
         max-width: 700px;
+    }
+    .logo{
+        padding: 10px;
     }
     .order-button{
         padding: 5px 7px;
     }
-    .nav-link{
-        font-size: 8pt;
+    .nav{
+        gap: 25px;
     }
-    .offer{
-        margin: 25px 40px 25px 20px;
+    .nav-tabs,.order-tab .nav-link{
+        font-size: 12px;
+    }
+    .offer-container{
+        gap: 60px;
+        justify-content: end;
+    }
+    .headphone-image{
+        max-width: 220px;
+        height: 300px;
     }
     .discount{
         padding: 20px 10px;
     }
-    .offer-container{
-        justify-content: center;
-    }
-    .headphone{
-        max-width: 300px;
-        height: 400px;
-        margin: 50px 0 0 0;
-    }
-    .stream{
-        font-size: 13pt;
-    }
-    .off{
-        font-size: 8pt;
-    }
-    .heading{
-        font-size: 38pt;
-        margin:0;
-    }
-    .model{
-        font-size:32pt ;
-        margin: 0;
-    }
-    .offer-para{
-        margin: 0 0 10px 0;
-    }
-   .bag-icon{
-        padding: 10px;
-    }
-    .cart-text{
-        padding: 10px;
-    }
-    .cart-button{
-        font-size: 8pt;
+    .bag-icon,.cart-text{
+        font-size: 12px;
     }
     .box{
         padding: 20px 30px;
-        max-width: 150px;
+        width: 150px;
+        height: 180px;
+    }
+    .background{
+        background: none;
     }
     .head,.white-head{
-        font-size:24pt ;
+        font-size:30px ;
     }
     .para,.white-para{
-        font-size: 9pt;
+        font-size: 15px;
     }
     .image{
         max-width: 150px;
@@ -234,73 +235,77 @@
         max-width: 170px;
         height: 270px;
     }
-    .day-content{
-        margin: 20px 0 0 30px;
+    .slide-icon{
+        padding: 10px;
+        font-size: 15px;
     }
-    .person-images{
-        margin: 40px 0 20px 20px;
+    .small-head{
+        font-size: 14px;
+    }
+    .small-para{
+        font-size: 12px;
+    }
+    .girl-image{
+        max-width: 150px;
+        height: 250px;
+    }
+    .boy-image{
+        max-width: 150px;
+        height: 200px;
+    }
+    .child-image{
+        max-width:110px ;
+        height:100px;
+    }
+    .icons-images{
+        gap: 40px;
     }
     .black-headphone{
-        margin: 20px 20px;
-    }
-    .content{
-        margin: 20px 20px 0 0;
-    }
-    .headphone-image{
         max-width: 250px;
         height: 330px;
     }
-    .black-headphone{
-        max-width: 250px;
-        height: 400px;
-    }
-    .video-items{
-        left: 15%;
-        bottom:400px;
+    .content{
+        max-width: 400px;
+    }    
+    .easy-center{
+        gap: 80px;
     }
     .video-para{
-        font-size: 20pt;
+        font-size: 28px;
+    }
+    .column1,.column2{
+        font-size: 18px;
     }
     .about-headphone{
-        margin-top: 50px;
-    }
-    .icon-1{
-        border-top-left-radius:0;
-    }  
-    .icon-2{
-        border-top-right-radius: 0;
-    }
-    .icon-3{
-        border-bottom-left-radius: 0;
-    }
-    .icon-4{
-        border-bottom-right-radius: 0;
-        border-top: none;
-    }
-      
-    .icon-row{
-        flex-direction: column;
+        gap: 60px;
     }
     .icon-column{
-        max-width: 100%;
+        padding: 30px;
+    }
+    .background-icon{
+        font-size:25px;
     }
     .seperate-background{
-        bottom: 10px;
+        width: 30px;
+        height: 25px;
+    }
+    .comment{
+        margin-top: 60px;
+        gap: 80px;
     }
     .reviewer-comment{
-        font-size: 11pt;
+        font-size:15px;
+    }
+    .reviewer-name,.reviewer-profession{
+        font-size: 14px;
     }
     .product-image{
-        display: grid;
-        grid-template: 1fr/ 1fr;
-        grid-template-rows: 370px;
-        grid-template-columns:  180px 180px 180px 180px;
-        gap: 5px;
+        column-gap: 121px;
     }
     .bluetooth-container{
         height: 270px;
         max-width: 160px;
-        }
+    }
     .rating-images{
         padding: 10px;
         max-width: 160px;
@@ -308,744 +313,896 @@
     }
     .star-rating{
         margin: 5px;
-        padding:0 0 10px 0;
-
+        padding-bottom:10px;
+    }
+    .blog-description-head{
+        font-size: 18px;
+    }
+    .blog-picture{
+        max-width: 230px;
+        height: 150px;
+    }
+    .blog-container{
+        max-width: 230px;
     }
     .blog-area-container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        gap: 15px;
     }
     .mail-address{
-        margin: 25px 0 100px 0;
+        margin: 30px 0 80px;
     }
     .subscribe{
-        margin-left: 20px;
-    }
-    .pre{
-        flex-direction: column;
-        height: fit-content;
-        max-width: 50%;
-    }
-    .preorder-content{
-        text-align: center;
+        padding: 8px;
+        font-size: 13px;
+        width: 100px;
     }
     .preorder-para{
-        font-size: 18pt;
+        font-size: 28px;
+    }
+    .preorder-head{
+        font-size: 44px;
     }
     .preorder-image{
         max-width: 210px;
         height: 300px;
     }    
-    .land{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
     .landing-content{
-        text-align: center;
-        max-width: 400px;
+        max-width: 300px;
+    }
+    .landing-para{
+        font-size: 15px;
+    }
+    .land{
+        gap: 20px;
+    }
+    .company-head{
+        font-size: 17px;
+    }
+    .company-link{
+        font-size: 15px;
     }
     .company-container{
-        margin-top: 50px;
-        justify-content:space-between;
-        align-items:center;
+        gap:20px;
     }
-    .company-content{
-        margin:0 10px;
-    }
-    .easy-center{
-        margin-top:50px ;
-        margin-bottom:50px ;
-    }
-
 }
 @media (max-width: 767px) {
+    .container{
+        max-width: 600px;
+    }
     .menu-bar{
-        display:inline-block;
+        display:flex;
     }
     .navigation-container{
         flex-direction: column;
-        justify-content: flex-start;
-        background-color:#ffffff;
+        justify-content: space-evenly;
+        background:linear-gradient(to bottom,white,white,blueviolet);
         color:black;
-        border-radius:0 10px 10px 0;
-        height:80vh;
-        max-width: 250px;
+        border-radius:0 5px 5px 0;
+        height:100%;
+        width: 300px;
         z-index: 5;
+        top: 0%;
+        margin: 0;
         position: fixed;
         visibility: hidden;
     }
     .logo{
-        margin: 13px;
         color:black;
     }
     .nav{
-        display: grid;
-        grid-template-columns: 250px;
-        justify-content:space-between;
-        text-align: center;
-    }
-    .order-tab{
-        margin: 25px;
+        flex-direction: column;
+        justify-content:space-evenly;
     }
     .nav-link{
         color:black;
     }
-    .nav-tabs{
-        margin: 13px;
+    .nav-tabs,.order-tab{
+        margin: 10px;
     }
     .menu-bar:hover + .navigation-container{
         visibility: visible;
         transition: visibility 0.1s;
     }
-    .menu-bar:hover{
-        cursor: pointer;
+    .offer-container{
+        gap: 20px;
+        justify-content:center;
+        margin-top: 60px;
     }
     .headphone-image{
         max-width: 200px;
         height: 280px;
     }
     .discount{
-        left: 130px;
-    }
-    .offer,.headphone{
-        height: 350px;
+        left:130px ;
     }
     .heading{
-        font-size: 36pt;
+        font-size: 36px;
+        margin-top: 10px;
     }
     .model{
-        font-size:30pt ;
+        font-size:28px;
+    }
+    .offer-para{
+        margin: 10px 0;
+        max-width: 300px;
+        line-height: 1.5;
     }
     .box-container{
-        display: grid;
-        grid-template: 1fr 1fr / 1fr 1fr;
-        grid-template-rows: 250px 250px;
-        grid-template-columns: 170px 170px;
+        margin: 60px auto;
+    }
+    .box{
+        padding: 15px 20px;
+        width: 120px;
+        height: 150px;
         gap: 10px;
-        place-items: center;
+    }
+    .icon{
+        font-size:25px ;
+    }
+    .description{
+        font-size: 13px;
     }
     .head,.white-head{
-        font-size:24pt ;
+        font-size:28px; 
     }
     .para,.white-para{
-        font-size: 9pt;
+        font-size:14px ;
     }
-    .person-images{
-        margin:0;
+    .images-container{
+        margin: 30px;
+    }
+    .image{
+        max-width: 130px;
+        height: 200px;
+    }
+    .active-image{
+        max-width: 150px;
+        height: 220px;
+        padding: 10px;
+    }
+    .slide-button{
+        height: 10px;
+        width: 10px;
     }
     .easy-center{
-        justify-content: center;
-        flex-direction: column;
-    }
-    .easy-image{
-        text-align: center;
-    }
-    .black-headphone{
-        max-width: 200px;
-        height: 350px;
-        margin: 0;
+        margin-top: 60px ;
+        padding-bottom: 60px ;
+        gap: 40px;
     }
     .seperate-container{
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-        margin: 10px;
+    }
+    .black-headphone{
+        max-width: 220px;
+        height: 280px;
+    }
+    .left{
+        margin-bottom: 30px;
     }
     .content{
-        margin: 0;
-    }
-    .about-headphone{
-        flex-direction: column;
-        text-align: center;   
-    }
-    .video-items{
-        left:5% ;
-        bottom: 350px;
+        max-width: 350px;
     }
     .video-para{
-        font-size: 18pt;
+        font-size: 24px;
     }
-    .play-button{
-        height: 50px;
-        max-width: 50px;
-        left: 270px;    
+    .design-specifications{
+        margin-top:60px ;
     }
-    .play-button::before{
-        top: 10px;
-        right:0;    
-    }
-    .about-headphone{
-        align-items: center;
-        justify-content: center;
-    }
-    .design{
-        align-items: center;
+    .design-center,.about-headphone{
+        gap: 30px;
     }
     .orange-background{
-        margin: auto;
+        max-width: 270px;
+        height: 170px;
     }
     .attach-headphones{
-        left: 60px;
+        max-width:170px;
+        height: 250px;
+    }
+    .image-specification{
+        height: 250px;
     }
     .column1{
-        font-size: 12pt;
-        padding-right: 60px;
+        font-size: 17px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
     .column2{
-        padding-left: 60px;
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 12pt;
     }
+    .set-background{
+        margin-top: 60px;
+    }
     .icon-column{
+        padding: 20px;
+        gap: 10px;
+    }
+    .background-icon{
+        font-size: 22px;
+        bottom: 20px;
+    }
+    .seperate-background{
+        width: 25px;
+        height: 20px;
+    }
+    .comment{
+        gap: 30px;
+    }
+    .comment-image{
+        max-width: 250px;
+        height:300px;
+    }
+    .comment-quote{
+        max-width: 350px;
+    }
+    .fa-quote-left{
+        font-size: 20px;
         padding: 10px;
     }
     .comment{
-        justify-content: center;
-        align-items: center;
+        padding-bottom: 60px;
     }
-    .small-head{
-        font-size: 9pt;
+    .product-content{
+        padding-top: 60px;
     }
-    .small-para{
-        font-size: 8pt;
-    }
-    .reviewer-comment{
-        font-size: 10pt;
-    }
-    .reviewer-name{
-        font-size: 10pt;
+    .product-image{
+        column-gap: 70px;
+        padding-bottom: 60px;
     }
     .blog-content{
-        max-width: 100%;
-        margin: 20px 0;
+        margin-top: 60px;
+    }
+    .blog-button{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .blog-description-head{
+        font-size: 17px;
+    }
+    .blog-description{
+        margin-top: 10px;
     }
     .subscribe-content{
-        margin: 70px 0 10px 0;
+        margin-top: 60px;
     }
     .mail-address{
-        margin: 10px 0px 70px 0;
-    }
-    .preorder-content{
-        margin: 0;
+        margin-bottom:70px;
+        margin-top: 20px;
     }
     .preorder-para{
-        margin: 0 0 10px 0;
+        font-size: 26px;
     }
-    .preorder-headphone{
-        padding: 0px;
+    .preorder-head{
+        font-size: 40px;
     }
-    .company-content{
-        margin:10px;
+    .preorder-image{
+        max-width:200px;
+        height:250px
+    }
+    .landing-para{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .company-head{
+        font-size: 16px;
+    }
+    .company-link{
+        font-size: 14px;
+    }
+    .company-para{
+        margin-top: 5px;
     }
     .company-container{
-        margin: 0;
+        gap: 10px;
+    }
+    .land{
+        gap: 10px;
     }
     .landing-content{
-        max-width: 100%;
-        text-align: center;
-        max-width: 350px;
-    }
-    .landing-page{
-        margin: 20px 0;
+        max-width:250px;
     }
     .horizontal-rule{
         margin: auto;
-
     }
     .copyright{
-        margin:10px;
-    }
-    .product-image{
-        display: grid;
-        grid-template: 1fr/ 1fr;
-        grid-template-rows: 370px 370px;
-        grid-template-columns:  180px 180px ;
-        gap: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
     }
     }
 @media (max-width: 640px) {
-    .offer{
-        margin: 10px;
-        height: 300px;
+    .container{
+        max-width: 520px;
     }
-    .headphone{
-        height: 300px;
+    .offer-container{
+        margin-top: 50px;
+        align-items: center;
+    }
+    .stream{
+        font-size: 17px;
+    }
+    .off{
+        padding: 3px 6px;
+        font-size: 12px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .model{
+        font-size: 24px;
+    }
+    .offer-para{
+        margin: 5px 0;
+    }
+    .box-container{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    /* .box{
+        padding: 10px 15px;
+        width: 110px;
+
+    } */
+    .description{
+        font-size: 12px;
     }
     .background{
-        margin: 30px;
-        background: none;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .head,.white-head{
+        font-size:26px;
+    }
+    .para,.white-para{
+        font-size: 13px;
     }
     .images-container{
         margin: 20px;
     }
     .image{
-        max-width: 120px;
-        height: 220px;
+        max-width: 100px;
+        height: 200px;
     }
     .active-image{
-        max-width: 150px;
-        height: 250px;
-    }
-    .day-content{
-        margin: 0;
-        padding: 0;
-    }
-    .girl-image{
-        max-width: 150px;
-        height: 250px;
-    }
-    .boy-image{
-        max-width: 150px;
+        max-width: 130px;
         height: 200px;
+    }
+    .icons-images{
+        gap: 20px;
+    }
+    .easy-center{
+        margin-top: 50px;
+        padding-bottom: 50px;
+        gap: 20px;
+    }
+    .easy-image{
+        order: 2;
+    }
+    .content{
+        order: 1;
+        max-width: 500px;
     }
     .black-headphone{
-        max-width: 150px;
-        height: 200px;
+        max-width: 170px;
+        height: 220px;
     }
     .video-para{
-        font-size: 10pt;
+        font-size:20px ;
     }
     .play-button{
-        left: 240px;
+        padding: 15px 17px;
+        font-size: 16px;
     }
-    .video-items{
-        left: 30px;
-        bottom: 250px;
-        max-width: 500px;
-        text-align: center;
+    .column1,.column2{
+        font-size: 16px;
+        padding-top:7px ;
+        padding-bottom:7px ;
     }
     .about-headphone{
-        margin: 20px;
+        gap: 20px;
     }
-    .head,.white-head{
-        font-size:22pt ;
-        margin: 10px;
-    }
-    .para,.white-para{
-        font-size: 8pt;
-        margin: 10px;
-    }
-    .offer-container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .headphone{
-        margin: 0;
-    }
-    .reviewer-image,.comment-image{
-        margin: 0;
-    }
-    .orange-background{
-        max-width: 250px; ;
-        height: 200px; ;
+    .design-specifications{
+        margin-top: 50px;
     }
     .attach-headphones{
-        max-width: 200px;
-        height: 250px;
+        max-width: 150px;
+        height: 230px;
+        left:40px ;
     }
-    .image-specification{
-        height: 250px;
+    .small-head{
+        font-size: 13px;
+    }
+    .small-para{
+        font-size: 11px;
+    }
+    .icon-column{
+        padding: 15px;
+    }
+    .set-background{
+        margin-top:50px;
+    }
+    .review{
+        margin-top: 50px;
+    }
+    .comment{
+        margin-top: 50px;
+        gap: 20px;
+        padding-bottom: 50px;
     }
     .comment-image{
         max-width: 200px;
         height: 250px;
     }
-    .company-content{
-        margin: 5px;
+    .reviewer-comment{
+        font-size: 14px;
+    }
+    .reviewer-name,.reviewer-profession{
+        font-size: 13px;
+    }
+    .product-content{
+        padding-top: 50px;
+    }
+    .product-image{
+        margin-top: 50px;
+        padding-bottom: 50px;
+        column-gap: 50px;
+    }
+    .blog-content{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .subscribe-content{
+        margin-top: 50px;
+    }
+    .mail-address{
+        margin-bottom: 50px;
+    }
+    .preorder-head{
+        font-size: 36px;
+    }
+    .preorder-para{
+        font-size: 24px;
+    }
+    .preorder-image{
+        max-width:170px ;
+        height: 230px;
+    }
+    .pre{
+        height: 300px;
+    }
+    .company-container{
+        gap: 50px;
     }
     .landing-content{
-        max-width: 300px;
+        max-width: 500px;
+        text-align: center;
     }
-    .table-side{
-        margin-left:0;
+    .landing-para{
+        text-align: justify;
+    }
+    .land{
+        justify-content: center;
+    }
+    .copyright{
+        text-align: center;
     }
     }
 @media (max-width: 576px) {
-    .para-skin{
-        margin-left: 20px;
-    }
-    .column1{
-        padding-right: 50px;
-    }
-    .column2{
-        padding-left: 50px;
-    }
-    .reviewer-comment{
-        font-size: 9pt;
-    }
-    .comment{
-        margin-left: 10px;
-    }
-    .preorder-image{
-        max-width: 200px;
-        height: 290px;
-    }
-    .image{
-        max-width: 80px;
-        height: 130px;
-    }
-    .active-image{
-        max-width: 120px;
-        height: 220px;
-    }
-    .video-items{
+    .container{
         max-width: 450px;
     }
-    .play-button{
-        left: 200px;
+    .heading{
+        font-size: 26px;
     }
-    .fa-quote-left{
-        font-size: 15pt;
+    .model{
+        font-size: 20px;
+    }
+    .bag-icon,.cart-text{
+        padding:8px 5px;
+        font-size: 10px;
+    }
+    .box-container{
+        width: 100%;
+        padding: 0 20px;
+        gap: 50px;
+    }
+/* .box{
+        width: 90px; 
+        height: 130px;
+        padding: 5px 10px;
+    } */
+    .description{
+        font-size: 10px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .video-para{
+        font-size: 18px;
+    }
+    .about-headphone{
+        gap: 10px;
+    }
+    .table-column{
+        font-size: 15px;
+    }
+    .icon-column{
+        padding: 10px;
+    }
+    .comment-quote{
+        max-width: 300px;
+    }
+    .reviewer-comment{
+        line-height: 1.5;
+    }
+    .comment{
+        justify-content: center;
     }
     .product-image{
-        grid-template-rows: 370px 370px;
-        grid-template-columns:  180px 180px ;
-        gap: 5px;
+        gap: 20px;
+    }
+    .preorder-head{
+        font-size: 32px;
+    }
+    .preorder-para{
+        font-size: 22px;
+    }
+    .pre{
+        height: 250px;
+    }
+    .landing-head{
+        font-size: 24px;
+    }
+    .company-container{
+        gap: 30px;
+    }
+    .head,.white-head{
+        font-size: 24px;
     }
     }
 @media (max-width: 480px) {
+    .container{
+        max-width: 380px;
+    }
+    .menu-bar{
+        font-size:20px ;
+    }
     .headphone-image{
-        max-width: 150px;
-        height: 230px;
+        max-width: 170px;
+        height: 250px;
+    }
+    .stream{
+        font-size: 15px;
+    }
+    .heading{
+        font-size: 22px;
+    }
+    .model{
+        font-size: 18px;
+    }
+    .offer-para{
+      max-width: 280px;
     }
     .discount{
         left: 100px;
-        font-size: medium;
-        padding: 15px 10px;
-        max-width: 40px;
+        font-size: 14px;
+        padding: 20px 10px;
     }
-    .offer{
-        height: 250px;
+    .box-container{
+        gap: 30px;
     }
-    .video-items{
-        max-width: 350px;
-        bottom: 200px;
+    /* .box{
+        padding: 5px;
+        height: 100px;
+        width: 40%;
+    } */
+    .image{
+        max-width: 90px;
+        height: 150px;
     }
-    .play-button{
-        left: 150px;
+    .active-image{
+        max-width: 100px;
+        height: 160px;
     }
-    .attach-headphones{
-        left:50px;
+    .slide-button{
+        width: 8px;
+        height: 8px;
+    }
+    .slide-container{
+        gap: 5px;
+    }
+    .head,.white-head{
+        font-size: 22px;
+    }
+    .video-para{
+        font-size: 16px;
+    }
+    .girl-image{
+        max-width:100px;
+        height: 150px;
+    }
+    .boy-image{
+        max-width:100px ;
+        height:150px ;
+    }
+    .child-image{
+        max-width:90px ;
+        height:80px ;
+    }
+    .person-images{
+        gap: 10px;
+    }
+    .black-headphone {
+        max-width: 150px;
+        height: 200px;
+    }
+    .comment-image{
+        max-width: 150px;
+        height: 200px;
+    }
+    .rating-images{
+        height: 100px;
+        width: 120px;
+    }
+    .increase-width{
+        max-width: 120px;
+    }
+    .bluetooth-container{
+        height: 180px;
+        max-width: 120px;
+    }
+    .product-model{
+        font-size: 10px;
+    }
+    .bag{
+        padding: 3px;
+        margin-right: 5px;
+    }
+    .rate,.delete{
+        font-size: 10px;
     }
     .product-image{
-        grid-template: 1fr / 1fr;
-        grid-template-rows: 300px 300px;
-        grid-template-columns: 200px 200px;
-        gap: 0;
-    }
+        place-items: center;
+    }  
+    .blog-description-head{
+        font-size: 15px;
+    }  
     .preorder-image{
         max-width: 150px;
-        height: 240px;
+        height: 200px;
+    }
+    .preorder-head{
+        font-size:28px
     }
     .preorder-para{
-        font-size: 16pt;
+        font-size: 20px;
     }
     .left{
         text-align: center;
     }
-    .content{
-        text-align: center;
+    .company-container{
+        gap: 20px;
     }
-    .seperate-background{
-        bottom: 20px;
-    }
-    .reviewer-comment,.reviewer-name{
-        font-size: 8pt;
-    }
-    .copyright{
-        font-size: 7pt;
-    }
-    .subscribe{
-        margin: 10px 10px 0 0;
-    }
-    .mail{
-        margin: 0 0 10px 10px;
-    }
-    .image{
-        max-width: 70px;
-        height: 120px;
-    }
-    .active-image{
-        max-width: 110px;
-        height: 210px;
-    }
-    .column1{
-        padding-right: 30px;
-    }
-    .column2{
-        padding-left: 30px;
-    }
-
 }
 @media (max-width: 400px) {
-    .headphone{
-        justify-content: center;
-        height: 220px;
+    .container{
+        max-width: 340px;
     }
-    .offer{
-        max-height: 220px;
-    }
-    .heading{
-        font-size: 30pt;
-    }
-    .model{
-        font-size: 20pt;
-    }
-    .offer-para{
-        line-height: 1;
-        font-size: 9pt;
-    }
-    .box-container{
-        grid-template: 1fr/ 1fr;
-        grid-template-rows: 120px 120px;
-        grid-template-columns: 140px 140px;
+    .offer-container{
+        margin-top: 40px;
         gap: 0;
     }
-    .description{
-        margin: 0;
-        font-size: 9pt;
+    .headphone-image {
+        max-width: 170px;
+        height: 230px;
     }
-    .icon{
-        font-size: 20pt;
+    .heading{
+        font-size: 20px;
     }
-    .cart-text{
-        font-size: 6pt;
+    .model{
+        font-size: 16px;
+    }
+    .bag-icon,.cart-text{
+        font-size: 9px;
     }
     .box-container{
-        margin: 20px;
+        margin-top: 40px auto;
+        gap: 20px;
     }
-    .box{
-        margin: 0;
-        padding: 0;
-        width: 130px;
-        height: 110px;
+    .background{
+        margin: 40px auto;
     }
     .head,.white-head{
-        font-size:18pt ;
-    }
-    .para,.white-para{
-        font-size: 7pt;
-    }
-    .small-head{
-        font-size: 8pt;
-    }
-    .icons-images{
-        padding-bottom:25px;
-    }
-    .small-para{
-        font-size: 7pt;
-    }
-    .video-para{
-        font-size: 7pt;
-    }
-    .video-items{
-        max-width: 320px;
-        bottom: 150px;
-    }
-    .slide-icon{
-        font-size: 11pt;
-        padding: 10px;
-        margin-right: 5px;
-    }
-    .day-content{
-        margin: 10px;
-    }
-    .girl-image{
-        max-width:100px;
-        height:150px;
-    }
-    .boy-image{
-        max-width: 100px;
-        height: 150px;
-    }
-    .child-image{
-        max-width:100px ;
-        height:100px ;
-    }
-    .black-headphone{
-        max-width:100px ;
-        height:150px ;
-    }
-    .image-specification{
-        height: 250px;
-    }
-    .column1{
-        font-size: 10pt;
-    }
-    .column2{
-        font-size: 10pt;
-    }
-    .seperate-background{
-        height:20px;
-        max-width:25px;
-        bottom: 30px;
-    }
-    .background-icon{
-        font-size: 15pt;
-    }
-    .comment-image{
-        max-width: 150px;
-        height: 200px;
-    }
-    .comment{
-        margin: 0;
-    }
-    .reviewer-comment{
-        margin: 0;
-    }
-    .comment-quote{
+        font-size:20px ;
         text-align: center;
-    }
-    .fa-quote-left{
-        font-size: 10pt;
-        padding: 10px;
-        margin-left: 10px;
-    }
-    .rating-images{
-        height: 100px;
-    }
-    .increase-width{
-        max-width: 100px;
-    }
-    .bluetooth-container{
-        height: 180px;
-        max-width: 100px;
-    }
-    .product-image{
-        grid-template-rows: 250px 250px ;
-        grid-template-columns: 120px 120px;
-    }
-    .product-model{
-        font-size: 6pt;
-    }
-    .bag{
-        padding: 2px;
-    }
-    .rate,.delete{
-        font-size: 6pt;
-    }
-    .product-image{
-        place-items: center;
-    }    
-    .blog-picture{
-        max-width: 230px;
-        height: 150px;
-    }
-    .blog-button{
-        padding: 5px;
-        font-size: 7pt;
-        top: 135px;
-        left: 50px;    
-    }
-    .blog-image{
-        text-align: center;
-    }
-    .blog-description-head{
-        font-size: 11pt;
-    }
-    .subscribe{
-        padding: 3px 5px;
-        font-size: 10pt;
-    }
-    .mail::placeholder{
-        font-size: 9pt;
-    }    
-    .preorder-para{
-        font-size: 11pt;
-    }
-    .landing-head{
-        font-size: 15pt;
-    }
-    .landing-para{
-        font-size: 7pt;
-        line-height: 1;
-    }
-    .company-head{
-        font-size: 9pt;
-    }
-    .company-para{
-        font-size: 7pt;
-    }
-    .copyright{
-        font-size: 6pt;
     }
     .image{
-        max-width: 60px;
-        height: 110px;
+        max-width: 80px;
+        height: 140px;
     }
     .active-image{
         max-width: 90px;
         height: 150px;
     }
-    .icon-column{
-        height:100px;
+    .icons-images{
+        padding-bottom:40px;
     }
+    .easy-center{
+        margin-top: 40px;
+        padding-bottom: 40px;
+        gap: 10px;
+    }
+    .left{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .seperate-container{
+        margin-top: 10px;
+    }
+    .content-icons{
+        font-size: 24px;
+    }    
+    .slide-icon{
+        font-size: 14px;
+        padding: 9px 10px;
+        margin-top: 5px;
+    }
+    .black-headphone{
+        max-width:100px ;
+        height:150px ;
+    }
+    .seperate-background{
+        height:20px;
+        max-width:25px;
+    }
+    .design-specifications{
+        margin-top: 40px;
+    }
+    .design-center{
+        gap: 10px;
+    }
+    .small-head{
+        font-size: 12px;
+    }
+    .small-para{
+        font-size: 10px;
+        text-align: left;
+    }
+    .icon-column{
+        padding: 5px;
+    }
+    .video-para{
+        font-size: 14px;
+    }
+    .comment-image{
+        max-width: 130px;
+        height: 180px;
+    }
+    .review{
+        margin-top: 40px;
+    }   
+    .comment,.product-image{
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+    .product-content{
+        padding-top: 40px;
+    }
+    .blog-content{
+        margin:40px 0;
+    }
+    .subscribe-content{
+        margin-top: 40px;
+    }
+    .mail-address{
+        margin-bottom: 40px;
+    }
+    .subscribe{
+        margin-left:10px;
+        font-size:12px;
+        width: 80px;
+    }
+    .mail::placeholder{
+        font-size: 12px;
+    }   
+    .preorder-head{
+        font-size: 24px;
+    } 
+    .preorder-para{
+        font-size: 18px;
+    }
+    .preorder-image{
+        max-width: 120px;
+        height: 170px;
+        transform: rotate(15deg);
+    }
+    .company-container{
+        gap: 10px;
+    }
+    .landing-page{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .play-button{
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    .icon-column{
+        width: 100%;
+        flex-direction: column;
+    }
+    .pre{
+        height: 200px;
+    }
+
 }
 @media(max-width:350px){
-    .video-items{
-        max-width: 270px;
-        left: 20px;
-    }
-    .offer{
-        max-height: 200px;
-    }
-    .stream,.off{
-        font-size: 6pt;
-        padding: 2px;
+    .container{
+        max-width: 280px;
     }
     .heading{
-        font-size: 24pt;
+        font-size:18px;
     }
     .model{
-        font-size: 20pt;
+        font-size: 14px;
     }
-    .headphone{
-        margin: 10px;
-        align-items: center;
+    .stream{
+        font-size: 14px;
+    }
+    .off{
+        font-size: 11px;
+        padding: 2px;
+    }
+    .offer-para{
+        max-width: 250px;
     }
     .active-image{
         max-width:70px;
         height: 130px;
         padding: 5px;
     }
-    .images-container{
-        margin: 5px;
-    }
-    .offer-para{
-        font-size: 7pt;
-        text-align: center;
-    }
-    .box{
-        height: 80px;
-    }
-    .description{
-        font-size: 7pt;
-    }
-    .box-container{
-        grid-template-rows: 90px 90px;
-        grid-template-columns: 140px 140px;
-    }
     .head,.white-head{
-        font-size:14pt ;
-        text-align: center;
-    }
-    .table-content,.table-invalid{
-        font-size: 8pt;
-    }
-    .reviewer-profession,.reviewer-name{
-        font-size: 7pt;
+        font-size:18px;
     }
     .preorder-image{
         max-width: 100px;
         height: 150px;
     }
-    .play-button{
-        left: 120px;
+    .images-container{
+        margin: 10px;
+    }
+    .day-content{
+        gap: 10px;
+    }
+    .video-para{
+        font-size: 14px;
+    }
+    .attach-headphones {
+        max-width: 150px;
+        height: 200px;
+    }
+    .table-column{
+        font-size: 14px;
+    }
+    .company-head{
+        font-size: 15px;
+    }
+    .company-link,.copyright{
+        font-size: 13px;
+    }
+    .company-container{
+        column-gap: 45px;
+        justify-content: center;
+    }
+    .landing-head{
+        font-size: 20px;
+    }
+    .copyright{
+        margin: 2px;
+    }
+    .pre{
+        height: 180px;
     }
 }
