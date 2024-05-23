@@ -397,7 +397,14 @@ hr{
     box-sizing: border-box;
 }
 .seperate-content:hover{
-    background-color:lightgrey;
+    background-color: blueviolet;
+    color: white;
+}
+.seperate-content:hover .content-icons{
+    color:white;
+}
+.seperate-content:hover .small-para{
+    color:white;
 }
 .content-icons{
     font-size: 28px;
